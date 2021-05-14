@@ -1,0 +1,14 @@
+{
+  "mqtt": {
+    "server": "mqtt://192.168.x.x",
+	"options": {
+		"clientId": "rf2mqtt",
+		"username": "mqttUser",
+		"password": "mqttPass",
+		"clean": true
+	},
+    "publish": {
+      "retain": true
+    }
+  }
+}

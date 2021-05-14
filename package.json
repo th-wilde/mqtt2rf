@@ -1,0 +1,17 @@
+{
+  "name": "rf2mqtt",
+  "version": "1.0.0",
+  "description": "A 433 RF Socket to MQTT bridge",
+  "main": "app.js",
+  "scripts": {
+    "start": "DEBUG=rf2mqtt node app.js",
+    "dev": "DEBUG=* node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "th.wilde",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "mqtt": "1.10.0"
+  }
+}
