@@ -6,9 +6,10 @@ Hooks up casual rf-controlled plugs to mqtt
 1. Install `nodejs` on jour raspberry pi
 1. Build `send`-Executable from https://github.com/xkonni/raspberry-remote
 2. Place `send` along the files from this reposiotires
-3. Change directory into the repository and run `/usr/bin/npm start`
-4. Check if it works. Stop execution witch `Ctrl+C`. Adjust whatever needed if an problem occur and try again with step 5. If everything is fine, continue with step 7.
-5. Create systemd-service-unit-file at `/etc/systemd/system/mqtt2rf.service` with follwing content:
+3. Adjust `config.json` to your needs
+4. Change directory into the repository and run `/usr/bin/npm start`
+5. Check if it works. Stop execution witch `Ctrl+C`. Adjust whatever needed if an problem occur and try again with step 6. If everything is fine, continue with step 8.
+6. Create systemd-service-unit-file at `/etc/systemd/system/mqtt2rf.service` with follwing content:
 ```ini
 [Unit]
 Description=MQTT2RF Bridge
