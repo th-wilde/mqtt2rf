@@ -9,7 +9,7 @@ Hooks up casual rf-controlled plugs to mqtt
 3. Change directory into the repository and run `/usr/bin/npm start`
 4. Check if it works. Stop execution witch `Ctrl+C`. Adjust whatever needed if an problem occur and try again with step 5. If everything is fine, continue with step 7.
 5. Create systemd-service-unit-file at `/etc/systemd/system/mqtt2rf.service` with follwing content:
-```systemd
+```ini
 [Unit]
 Description=MQTT2RF Bridge
 After=network.target
